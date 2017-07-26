@@ -1,0 +1,30 @@
+{
+  "author": {
+    "email": "consuela@rsilvola.com"
+  },
+  "homepage_url": "https://rsilvola.com",
+  "icons": {
+    "128": "icons/128.png",
+    "48": "icons/48.png"
+  },
+  "minimum_chrome_version": "52",
+  "manifest_version": 2,
+  "name": "Consuela",
+  "description": "No, No..",
+  "version": "0.1",
+  "background": {
+    "scripts": ["js/list.js", "js/no.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/16.png",
+    "default_title": "No, No.."
+  },
+  "web_accessible_resources": [
+    "no.html"
+  ],
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/*"
+  ]
+}
