@@ -1,3 +1,0 @@
-var pages = [
-  "*://imgur.com/*"
-]
