@@ -1,4 +1,6 @@
 function patternIsValid(str) {
+  // modified from http://forums.devshed.com/javascript-development-115/regexp-match-url-pattern-493764.html
+  // tests for this regex https://regex101.com/r/MIsZON/3/tests
   if (!/^(<all_urls>|((\*|(https?)):\/\/)((\*|(((\*|[a-z\d])([a-z\d-]*[a-z\d])*)\.)+(\*|([a-z]{2,})))|((\d{1,3}\.){3}\d{1,3}))(\:\d+)?(\/(\*|([-a-z\d%_.~+]*))))$/.test(str)) {
     return false;
   } else {
